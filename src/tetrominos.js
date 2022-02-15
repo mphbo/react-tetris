@@ -62,5 +62,6 @@ export const randomTetromino = () => {
   const tetrominos = "IJLOSTZ";
   const randomTetromino =
     tetrominos[Math.floor(Math.random() * tetrominos.length)];
+  console.log(TETROMINOS[randomTetromino]);
   return TETROMINOS[randomTetromino];
 };
